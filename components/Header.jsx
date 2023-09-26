@@ -23,12 +23,6 @@ const Header = () => {
                 >
                   Sign In
                 </Link>
-                <Link
-                  href="/courses"
-                  className="text-gray-300 hover:text-white mr-4"
-                >
-                  Courses     
-                </Link>
 
                 <Link
                   href="/sign-up"
@@ -55,7 +49,7 @@ const Header = () => {
                   href="/dashboard"
                   className="text-yellow-300 hover:text-white mr-4"
                 >
-                  dashboard
+                  Dashboard
                 </Link>
                 <Link
                   href="/profile"
