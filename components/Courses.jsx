@@ -11,8 +11,8 @@ const Courses = async ({ courses }) => {
     <div className="grid-1 ">
       {courses?.map((course) => (
         <div key={course.id} className="bg-blue-200 p-4 m-4 rounded-lg">
-          <h2>{course.title}</h2>
-          <small>Level: {course.level}</small>
+          <h2 className="font-bold text-xl">{course.title}</h2>
+          <small className="text-red-600">Level: {course.level}</small>
           <p className="mb-4">{course.description}</p>
           <Link
             href={course.link}
