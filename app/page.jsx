@@ -42,13 +42,19 @@ export default function Home() {
       </div>
 
       <div className="mb-4 bg-gray-100 p-4 m-4 rounded-lg">
-        <Link href="#" className="text-xl text-blue-700 font-bold">
+        <Link
+          href="https://github.com/leetaeyeon11111/cleck-auth"
+          className="text-xl text-blue-700 font-bold"
+        >
           Github Repository
         </Link>
       </div>
 
       <div className="mb-4 bg-gray-100 p-4 m-4 rounded-lg">
-        <Link href="#" className="text-xl text-blue-700 font-bold">
+        <Link
+          href="https://cleck-auth-gham.vercel.app/"
+          className="text-xl text-blue-700 font-bold"
+        >
           Web service at vercel.com
         </Link>
       </div>
