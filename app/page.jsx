@@ -58,6 +58,12 @@ export default function Home() {
           Web service at vercel.com
         </Link>
       </div>
+
+      <div className="mb-4 bg-gray-100 p-4 m-4 rounded-lg">
+        <Link href="/youtube" className="text-xl text-blue-700 font-bold">
+          내가 참고했던 유튜브 채널
+        </Link>
+      </div>
     </>
   )
 }
