@@ -16,7 +16,7 @@ async function fetchRepos(name) {
 
 const Repo = async ({ name }) => {
   const repo = await fetchRepos(name)
-  const username = 'bradtraversy'
+  const username = 'leetaeyeon11111'
 
   return (
     <div>

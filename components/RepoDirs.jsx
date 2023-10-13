@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 async function fetchRepoContents(name) {
-  const username = 'bradtraversy'
+  const username = 'leetaeyeon11111'
   await new Promise((resolve) => setTimeout(resolve, 2000))
 
   const response = await fetch(
@@ -13,7 +13,7 @@ async function fetchRepoContents(name) {
 }
 
 const RepoDirs = async ({ name }) => {
-  const username = 'bradtraversy'
+  const username = 'leetaeyeon11111'
   const contents = await fetchRepoContents(name)
   const dirs = contents.filter((content) => content.type === 'dir')
 
