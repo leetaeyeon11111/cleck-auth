@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { FaStar, FaCodeBranch, FaEye } from 'react-icons/fa'
 
 async function fetchRepos() {
-  const username = 'leetaeyeon11111'
+  const username = 'bradtraversy'
 
   // 1. SSG : Static Site Generation
   const response = await fetch(`https://api.github.com/users/${username}/repos`)
@@ -26,7 +26,7 @@ async function fetchRepos() {
 }
 
 const ReposPage = async () => {
-  const username = 'leetaeyeon11111'
+  const username = 'bradtraversy'
   const repos = await fetchRepos()
 
   return (
