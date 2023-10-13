@@ -63,6 +63,7 @@ export default function Home() {
         <Link href="/youtube" className="text-xl text-blue-700 font-bold">
           내가 참고했던 유튜브 채널
         </Link>
+        <p className="mb-2">Traversy media YouTube channel platform</p>
       </div>
     </>
   )

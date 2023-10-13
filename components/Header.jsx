@@ -6,11 +6,11 @@ const Header = () => {
 
   return (
     <>
-      <nav className="bg-red-900 py-4 px-8">
+      <nav className="bg-yellow-400 py-4 px-8">
         <div className="flex items-center justify-between container">
           <div className="flex items-center font-bold">
             <Link href="/">
-              <div className="text-lg text-white">Clerk3</div>
+              <div className="text-lg text-white">Middle Web</div>
             </Link>
           </div>
 
@@ -19,14 +19,14 @@ const Header = () => {
               <>
                 <Link
                   href="/sign-in"
-                  className="text-yellow-300 hover:text-white mr-4"
+                  className="text-black hover:text-white mr-4"
                 >
                   Sign In
                 </Link>
 
                 <Link
                   href="/sign-up"
-                  className="text-yellow-300 hover:text-white mr-4"
+                  className="text-black hover:text-white mr-4"
                 >
                   Sign Up
                 </Link>
@@ -35,25 +35,25 @@ const Header = () => {
               <>
                 <Link
                   href="/repos"
-                  className="text-yellow-300 hover:text-white mr-4"
+                  className="text-black hover:text-white mr-4"
                 >
                   Repository
                 </Link>
                 <Link
                   href="/courses"
-                  className="text-yellow-300 hover:text-white mr-4"
+                  className="text-black hover:text-white mr-4"
                 >
                   Courses
                 </Link>
                 <Link
                   href="/dashboard"
-                  className="text-yellow-300 hover:text-white mr-4"
+                  className="text-black hover:text-white mr-4"
                 >
                   Dashboard
                 </Link>
                 <Link
                   href="/profile"
-                  className="text-yellow-300 hover:text-white mr-4"
+                  className="text-black hover:text-white mr-4"
                 >
                   Profile
                 </Link>
